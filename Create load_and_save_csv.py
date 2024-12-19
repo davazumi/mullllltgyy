@@ -1,4 +1,4 @@
-import csv
+import csv #Эти функции предназначены для работы с CSV (Comma-Separated Values) файлами, позволяя загружать данные из CSV и сохранять их обратно в CSV формат.
 def load_csv(file):
     try:
         with open(file, 'r', newline='', encoding='utf-8') as file:
