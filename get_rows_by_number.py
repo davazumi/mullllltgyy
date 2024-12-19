@@ -1,4 +1,4 @@
-def get_rows_by_number (self, start, stop=None, copy_table=False):
+def get_rows_by_number (self, start, stop=None, copy_table=False): #удобен для выборки строк из таблицы по заданным индексам с возможностью возвращать копии данных
     try:
       if stop is None:
           stop = start + 1
