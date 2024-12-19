@@ -1,4 +1,4 @@
-def set_value(self, value, column=0):
+def set_value(self, value, column=0):#Он сочетает в себе проверку правильности данных, работу с индексами и заголовками, а также надежную обработку ошибок
     try:
         if len(self.data) != 1:
             raise ValueError("Таблица содержит более одной строки.")
