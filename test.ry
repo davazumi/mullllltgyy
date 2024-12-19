@@ -10,7 +10,7 @@ from package import (csv_module, pickle_module, txt_module, tools)
 
 #print(tools. get_column_types(table))
 
-#print(tools. get_rows_by_index(table,'Долгов', 'davlet', copy_table = True))
+#print(tools. get_rows_by_index(table,'хачамизов', 'davlet', copy_table = True))
 
 #print(tools. get_value(table, 'Фамилия'))
 
@@ -21,9 +21,9 @@ from package import (csv_module, pickle_module, txt_module, tools)
 #print(tools. set_column_types(table, {3: float, 4: float, 5: float}))
 from package import (csv_module, pickle_module, txt_module, tools)
 
-#table = csv_module. load_table('C:\\Users\\Alex\\Desktop\\Package project\\files\\test.csv')
+#table = csv_module. load_table('C:\\Users\\davlet\\xachamizov\\Package project\\files\\test.csv')
 
-#table = pickle_module. load_table('C:\\Users\\Alex\\Desktop\\Package project\\files\\test.pickle')
+#table = pickle_module. load_table('C:\\Users\\davlet\\xachamizov\\Package project\\files\\test.pickle')
 
 #print(table)
 
@@ -31,7 +31,7 @@ from package import (csv_module, pickle_module, txt_module, tools)
 
 #print(tools. get_column_types(table))
 
-#print(tools. get_rows_by_index(table,'Долгов', 'Алексеев', copy_table = True))
+#print(tools. get_rows_by_index(table,'Хачамизов', 'Давлет', copy_table = True))
 
 #print(tools. get_value(table, 'Фамилия'))
 
