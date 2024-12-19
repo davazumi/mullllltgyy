@@ -1,4 +1,4 @@
-def get_rows_by_index(self, *values, copy_table=False):
+def get_rows_by_index(self, *values, copy_table=False): #предназначен для поиска строк по значению в первом столбце, проверяет наличие переданных значений и возможность создания копии данных, а также аккуратно обрабатывает ошибки.
     try:
         if not values:
             raise ValueError("Не указаны значения для поиска.")
