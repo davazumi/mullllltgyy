@@ -1,4 +1,4 @@
-def set_column_types(self, types_dict, by_number=True):
+def set_column_types(self, types_dict, by_number=True): #отвечает за изменение типов данных в определенных столбцах таблицы
     try:
         for key, col_type in types_dict.items():
             col_index = key if by_number else self.header.index(key)
