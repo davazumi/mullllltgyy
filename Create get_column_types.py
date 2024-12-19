@@ -1,4 +1,4 @@
-def get_column_types(self, by_number=True):
+def get_column_types(self, by_number=True): #Эта программа определяет типы данных в столбцах структуры данных, возможно, представленной в виде таблицы 
     try:
         types = {}
         for ind, col_name in enumerate(self.header):
