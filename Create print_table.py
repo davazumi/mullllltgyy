@@ -1,4 +1,4 @@
-def print_table(self):
+def print_table(self): #Таким образом, метод обеспечивает удобный способ визуализации табличных данных в текстовом формате.
     try:
         print(" | ".join(self.header))
         for row in self.data:
